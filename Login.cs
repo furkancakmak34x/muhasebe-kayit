@@ -27,7 +27,7 @@ namespace Uygulama
 
             if (result == DialogResult.Yes)
             {
-                Process.Start("shutdown", "/s /f /t 0");
+                Application.Exit();
             }
         }
 
